@@ -1,0 +1,108 @@
+{
+  "citation": "Compiled from classical Tamil astrology treatises: Jathaka Alankaram, Kumaraswamiyam, and Pambu Panchangam traditional matching tables.",
+  "dinam": {
+    "nameTamil": "தினப் பொருத்தம்",
+    "nameEnglish": "Dinam Porutham (Tara Balam)",
+    "descriptionTamil": "தம்பதியர் ஆரோக்கியம், நீண்ட ஆயுள் மற்றும் நோயற்ற வாழ்வு அளிப்பது தினப் பொருத்தம் ஆகும்.",
+    "descriptionEnglish": "Ensures good health, vitality, freedom from disease, and longevity.",
+    "favorableRemainders": [2, 4, 6, 8, 0],
+    "unfavorableRemainders": [1, 3, 5, 7]
+  },
+  "ganam": {
+    "nameTamil": "கணப் பொருத்தம்",
+    "nameEnglish": "Ganam Porutham",
+    "descriptionTamil": "தம்பதியர் குணநலன், மன ஒற்றுமை மற்றும் வாழ்க்கை அணுகுமுறையின் பொருத்தத்தைக் குறிப்பது.",
+    "descriptionEnglish": "Ensures temperamental compatibility, harmonious lifestyle, and mental wavelength.",
+    "compatibilityMatrix": {
+      "Deva": { "Deva": 1, "Manushya": 0.5, "Rakshasa": 0 },
+      "Manushya": { "Deva": 0.75, "Manushya": 1, "Rakshasa": 0 },
+      "Rakshasa": { "Deva": 0, "Manushya": 0.25, "Rakshasa": 0.5 }
+    }
+  },
+  "mahendram": {
+    "nameTamil": "மாகேந்திரப் பொருத்தம்",
+    "nameEnglish": "Mahendra Porutham",
+    "descriptionTamil": "புத்திர பாக்கியம் (குழந்தைச் செல்வம்) மற்றும் வம்ச விருத்தியை அருளும் முக்கிய பொருத்தம்.",
+    "descriptionEnglish": "Grants progeny, lineage continuity, and prosperity of children.",
+    "favorableCounts": [4, 7, 10, 13, 16, 19, 22, 25]
+  },
+  "streeDheergam": {
+    "nameTamil": "ஸ்திரீ தீர்க்கப் பொருத்தம்",
+    "nameEnglish": "Stree Dheerga Porutham",
+    "descriptionTamil": "மனைவியின் ஆயுள் பலம், மங்கல நல்வாழ்வு மற்றும் குடும்ப ஐஸ்வர்யத்தைக் குறிக்கிறது.",
+    "descriptionEnglish": "Ensures longevity, wellness, and all-round prosperity for the wife.",
+    "thresholdHigh": 13,
+    "thresholdMid": 7
+  },
+  "yoni": {
+    "nameTamil": "யோனிப் பொருத்தம்",
+    "nameEnglish": "Yoni Porutham",
+    "descriptionTamil": "தாம்பத்திய சுகம், உடல் மற்றும் பாலியல் ஈர்ப்பு, பரஸ்பர அன்பை உறுதி செய்வது யோனிப் பொருத்தம்.",
+    "descriptionEnglish": "Ensures sexual compatibility, intimate harmony, and biological affinity.",
+    "enemyPairs": [
+      ["Cow", "Tiger"],
+      ["Elephant", "Lion"],
+      ["Horse", "Buffalo"],
+      ["Dog", "Deer"],
+      ["Serpent", "Mongoose"],
+      ["Cat", "Rat"],
+      ["Monkey", "Goat"]
+    ]
+  },
+  "rasi": {
+    "nameTamil": "ராசிப் பொருத்தம்",
+    "nameEnglish": "Rasi Porutham",
+    "descriptionTamil": "குடும்ப வம்ச விருத்தி, ஒருமித்த கருத்து மற்றும் சஷ்டாஷ்டக தோஷமின்மையை சோதிப்பது.",
+    "descriptionEnglish": "Ensures familial compatibility, avoiding 6/8 Sashtashtaka afflictions.",
+    "favorableCounts": [7, 3, 4, 10, 11, 9],
+    "unfavorableCounts": [6, 8, 2]
+  },
+  "rasiAdhipathi": {
+    "nameTamil": "ராசியாதிபதிப் பொருத்தம்",
+    "nameEnglish": "Rasi Adhipathi Porutham",
+    "descriptionTamil": "ராசி நாதர்களுக்கு இடையிலான நட்பு, பரஸ்பர புரிதல் மற்றும் குடும்ப அமைதியைத் தரும்.",
+    "descriptionEnglish": "Friendship between ruling planets of birth moon signs, conferring peace.",
+    "scoreSameOrFriend": 1,
+    "scoreNeutral": 0.5,
+    "scoreEnemy": 0
+  },
+  "vasyam": {
+    "nameTamil": "வசியப் பொருத்தம்",
+    "nameEnglish": "Vasya Porutham",
+    "descriptionTamil": "தம்பதியர் ஒருவரை ஒருவர் ஈர்க்கும் காந்த சக்தி மற்றும் பிரியாத பிணைப்பைத் தரும்.",
+    "descriptionEnglish": "Mutual attraction, enduring attachment, and magnetic affection.",
+    "attractionMap": {
+      "0": [4, 7],
+      "1": [3, 6],
+      "2": [5],
+      "3": [7, 8],
+      "4": [6],
+      "5": [1, 11],
+      "6": [9],
+      "7": [3, 8],
+      "8": [11],
+      "9": [0, 10],
+      "10": [11],
+      "11": [3]
+    }
+  },
+  "rajju": {
+    "nameTamil": "ரஜ்ஜுப் பொருத்தம் (மாங்கல்ய பலம்)",
+    "nameEnglish": "Rajju Porutham (Mangalya Balam)",
+    "descriptionTamil": "தமிழ் ஜோதிடத்தில் தலையாய பொருத்தம் ரஜ்ஜு ஆகும். இருவருக்கும் ஒரே ரஜ்ஜு அமையக் கூடாது (ரஜ்ஜு தட்டக் கூடாது).",
+    "descriptionEnglish": "The paramount matching factor in Tamil tradition. Bride and groom must not have identical Rajju."
+  },
+  "vedhai": {
+    "nameTamil": "வேதைப் பொருத்தம்",
+    "nameEnglish": "Vedha Porutham",
+    "descriptionTamil": "துன்பமும் இடையூறும் இல்லாமல் தம்பதியர் மன மகிழ்ச்சியோடு வாழ்வதை உறுதி செய்வது வேதைப் பொருத்தம்.",
+    "descriptionEnglish": "Ensures freedom from affliction, sudden strife, or emotional turmoil."
+  },
+  "chevvaiDosham": {
+    "nameTamil": "செவ்வாய் தோஷ ஆய்வு",
+    "nameEnglish": "Chevvai (Mars) Dosham Evaluation",
+    "descriptionTamil": "லக்னம், சந்திரன், சுக்கிரனுக்கு 1, 2, 4, 7, 8, 12-ம் இடங்களில் செவ்வாய் அமர்வதால் ஏற்படும் தோஷம் மற்றும் விதிவிலக்குகள்.",
+    "descriptionEnglish": "Affliction created when Mars resides in houses 1, 2, 4, 7, 8, 12 from Lagna, Moon, or Venus, evaluated alongside classical exemptions.",
+    "doshamHouses": [1, 2, 4, 7, 8, 12]
+  }
+}

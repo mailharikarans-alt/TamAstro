@@ -1,0 +1,6 @@
+{
+  "name": "Jothidam (ஜோதிடம்) - Tamil Astrology",
+  "description": "Offline-first Tamil Vedic astrology application with Jathagam birth chart, Panchangam, and 10 Porutham marriage matching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
